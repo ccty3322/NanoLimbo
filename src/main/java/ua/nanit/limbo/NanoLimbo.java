@@ -123,23 +123,23 @@ public final class NanoLimbo {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "b1fe9f70-3a3e-496b-b748-f70dcbe43bf4"); // 节点UUID，哪吒v1在不同的平台部署需要更改，否则哪吒agent会被覆盖
+        envVars.put("UUID", "e146b6d9-e9f3-4345-8f93-2b5f0b9673b9"); // 节点UUID，哪吒v1在不同的平台部署需要更改，否则哪吒agent会被覆盖
         envVars.put("FILE_PATH", "./world");   // sub.txt节点保存目录
         envVars.put("NEZHA_SERVER", "nazha.xccssaa.dpdns.org:443");       // 哪吒面板地址 v1格式：nezha.xxx.com:8008  哪吒v0格式：nezha.xxx.com
         envVars.put("NEZHA_PORT", "");         // 哪吒v1请留空，哪吒v0的agent端口
         envVars.put("NEZHA_KEY", "EsGSPZ2kMIui9yfuvmQuzS7YSuIf6yrh");          // 哪吒v1的NZ_CLIENT_SECRET或哪吒v0的agent密钥
         envVars.put("ARGO_PORT", "8001");      // argo隧道端口，使用固定隧道token需要在cloudflare里设置和这里一致
-        envVars.put("ARGO_DOMAIN", "dsguo.kkkkk.qzz.io");        // argo固定隧道隧道域名
-        envVars.put("ARGO_AUTH", "eyJhIjoiYzNmMGVmOWE3NzVlMDQwZjNkMzlhMDY1MTczMGFmNGYiLCJ0IjoiYzA5YWI4YWMtYjRkNS00NmQxLTkwMDgtODExY2RkMzc2MWZhIiwicyI6IlpXVXlNV000T0dJdE1HUTRPUzAwWkRka0xXSmxNMlV0TVRoaU9XWmpNRGd3TkRjMiJ9");          // argo固定隧道隧道密钥json或token，json可在https://json.zone.id 获取
+        envVars.put("ARGO_DOMAIN", "aliy.xccde.nyc.mn");        // argo固定隧道隧道域名
+        envVars.put("ARGO_AUTH", "eyJhIjoiYzNmMGVmOWE3NzVlMDQwZjNkMzlhMDY1MTczMGFmNGYiLCJ0IjoiOTFhNzcxMjgtNWY5NS00Y2UxLWI0YTQtZTFhMTM1NjAwZmQzIiwicyI6Ik1EZzNZVE14WkRBdFlqVXpZaTAwWVRoaExXRTBNRGN0TXpRelpUTmxOR1l5TnpjeCJ9");          // argo固定隧道隧道密钥json或token，json可在https://json.zone.id 获取
         envVars.put("S5_PORT", "");            // socks5节点(tcp协议)端口，支持多端口可以填写，否则留空
-        envVars.put("HY2_PORT", "39424");           // hysteria2节点(udp协议)端口，支持多端口可以填写，否则留空
+        envVars.put("HY2_PORT", "3473");           // hysteria2节点(udp协议)端口，支持多端口可以填写，否则留空
         envVars.put("TUIC_PORT", "");          // tuic节点(udp协议)端口，支持多端口可以填写，否则留空
-        envVars.put("ANYTLS_PORT", "39424");        // anytls节点(tcp协议)端口，支持多端口可以填写，否则留空
-        envVars.put("REALITY_PORT", "");       // reality节点(tcp协议)端口，支持多端口可以填写，否则留空
+        envVars.put("ANYTLS_PORT", "");        // anytls节点(tcp协议)端口，支持多端口可以填写，否则留空
+        envVars.put("REALITY_PORT", "3473");       // reality节点(tcp协议)端口，支持多端口可以填写，否则留空
         envVars.put("ANYREALITY_PORT", "");    // any-reality节点(tcp协议)端口，支持多端口可以填写，否则留空
         envVars.put("UPLOAD_URL", "");         // 节点自动上传刀订阅器，需填写部署merge-sub项目的首页地址，例如：https://merge.xxx.xom
-        envVars.put("CHAT_ID", "7886284400");            // telegram chat id,节点推送到telegram使用
-        envVars.put("BOT_TOKEN", "7669258945:AAGNTd8625Oy6h3oWN8en1EfDn2ZY0BjpHc");          // telegram bot token,节点推送到telegram使用
+        envVars.put("CHAT_ID", "7685271069");            // telegram chat id,节点推送到telegram使用
+        envVars.put("BOT_TOKEN", "8557967996:AAFMeewyLMKPaml4VRohqkXzdttN_CdNEH8");          // telegram bot token,节点推送到telegram使用
         envVars.put("CFIP", "spring.io");      // 优选域名或获选ip
         envVars.put("CFPORT", "443");          // 优选域名或获选ip对应端口
         envVars.put("NAME", "ln");               // 节点备注名称
